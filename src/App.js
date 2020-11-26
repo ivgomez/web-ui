@@ -13,6 +13,7 @@ import store from "./redux/store";
 import "./App.css";
 import themeFile from "./util/theme";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import Profile from "./pages/Profile";
 
 const theme = createMuiTheme(themeFile);
 
@@ -28,6 +29,7 @@ function App() {
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/tutorias" component={TutoriasPage} />
                 <Route exact path="/personalizadas" component={TutoriasPersonalizadas} />
+                <Route exact path="/profile" component={Profile} />
               </Switch>
             </div>
           </Router>

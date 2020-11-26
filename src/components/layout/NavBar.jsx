@@ -16,13 +16,13 @@ const NavBar = (props) => {
                     </div>
                     <Button color="inherit" component={Link} to="/">
                         Home
-                    </Button>
-                    <Button color="inherit" component={Link} to="/tutorias">
-                        Tutorias
-                    </Button>
+                    </Button>                    
                     <Button color="inherit" component={Link} to="/personalizadas">
                         TutoriasPersonalizadas
                  </Button>
+                 <Button color="inherit" component={Link} to="/profile">
+                        Mi Perfil
+                    </Button>
                 </div>
                 <LoginButton />
             </ToolBar>
