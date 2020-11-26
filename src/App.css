@@ -10,11 +10,13 @@ body {
 }
 
 .nav-container {
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav-container svg {
-  color: #fff;
+.menu-container {
+  display: flex;
 }
 
 a {
