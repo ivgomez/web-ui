@@ -4,7 +4,6 @@ import { getTutoriasPersonalizadasAction } from '../redux/actions/tutoriasAction
 import { Button } from '@material-ui/core';
 
 const TutoriasPersonalizadas = (props) => {
-    console.log("props ", props)
     return (
         <div class="col-md">
             <h3>Tutorías Personalizadas</h3>
